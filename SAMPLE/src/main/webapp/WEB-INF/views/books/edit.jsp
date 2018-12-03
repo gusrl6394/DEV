@@ -16,7 +16,7 @@
             <p>views/books/edit.jsp</p>
         </div>
         <!-- action 값을 잘 설정해 주세요 -->
-        <form action="<c:url value='/books/update' />" method="post">
+        <form action="<c:url value='/books/update'/>?${_csrf.parameterName}=${_csrf.token}" method="post">
             <div class="form-group form-group-lg">
 		        <label class="control-label">도서 제목</label>
 		        <input name="title" type="text" class="form-control" value="${ book.title }">

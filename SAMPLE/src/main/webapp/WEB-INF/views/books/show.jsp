@@ -23,11 +23,6 @@
     
     <f:textarea path="text" cssClass="form-control" rows="5" />
     <!-- 평점 선택창 -->
-    <%-- <f:label path="rating">평점: </f:label>    
-    <f:select path="rating">
-        <f:options items="${ ratingOptions }"/>
-    </f:select> --%>
-    
     <!-- http://plugins.krajee.com/star-rating -->
     <!-- One of xl, lg, md, sm, or xs. Defaults to md -->
     <input name="rating" id="rating-system" type="text" class="rating rating-loading" data-size="md">

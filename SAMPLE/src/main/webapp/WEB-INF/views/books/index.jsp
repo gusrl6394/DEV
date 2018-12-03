@@ -50,11 +50,7 @@
 		                    data : {term : request.term},
 		                    url : "<c:url value='/api/books/search'/>",		                    
 		                    success : function(data) {
-		                    	/* var res = JSON.stringify(data, null, 2);
-		                    	alert(res); */
 		                    	console.log(data);
-		                    	//alert(data[0].title);
-		                        //var bookList = data.bookList;
 		                        response($.map(data, function(item) {
 		                        	console.log(item.title);
 		                            return item.title;
@@ -68,7 +64,7 @@
 		          	//조회를 위한 최소글자수
 		            minLength: 2,
 		            select: function( event, ui ) {
-		                // 만약 검색리스트에서 선택하였을때 선택한 데이터에 의한 이벤트발생
+		            // 만약 검색리스트에서 선택하였을때 선택한 데이터에 의한 이벤트발생
 		            }
 		        });
 		    });

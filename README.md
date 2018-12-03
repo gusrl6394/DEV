@@ -22,7 +22,7 @@
 - 이클립스 EE
 
 ### 공부단계중
-- Spring Boot, IntelliJ-IDEA, JPA, Spring Micro Service, Restful API
+- Spring Boot, IntelliJ-IDEA 전환중, JPA, Spring Micro Service, Restful API
 
 ### 추후 공부할 자료
 - 아키텍쳐 공부

@@ -24,10 +24,10 @@
 - Ajax
 
 ## 4. 결과
-<img src="./img/projectfile002.png">
-<img src="./img/projectfile003.png">
-<img src="./img/projectfile004.png">
-<img src="./img/projectfile005.png">
-<img src="./img/projectfile006.png">
-<img src="./img/projectfile007.png">
-<img src="./img/projectfile008.png">
+<img src="./img/projectfile002.png" width="500" height="500">
+<img src="./img/projectfile003.png" width="500" height="500">
+<img src="./img/projectfile004.png" width="500" height="500">
+<img src="./img/projectfile005.png" width="500" height="500">
+<img src="./img/projectfile006.png" width="500" height="500">
+<img src="./img/projectfile007.png" width="500" height="500">
+<img src="./img/projectfile008.png" width="500" height="500">

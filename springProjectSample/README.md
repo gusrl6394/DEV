@@ -24,6 +24,7 @@
 - Ajax
 
 ## 4. 결과
+![이미지2](./img/projectfile002.PNG)
 <img src="./img/projectfile002.PNG">
 <img src="./img/projectfile003.PNG">
 <img src="./img/projectfile004.PNG">

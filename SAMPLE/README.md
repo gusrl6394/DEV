@@ -97,3 +97,14 @@ $(function() {
 공부당시 24번(주기적 메소드 수행)하기까지 있었으나 깃허브 업데이트당시 25번(도서 주문하기),
 
 26번(지도 API 적용하기)가 첨부되었습니다. 추후 업데이트 하겠습니다. 
+
+## 4. 결과
+
+<img src="/img/BOOK1.png" width="500" height="500">
+<img src="/img/BOOK2.png" width="500" height="500">
+<img src="/img/BOOK3.png" width="500" height="500">
+<img src="/img/BOOK4.png" width="500" height="500">
+<img src="/img/BOOK5.png" width="500" height="500">
+<img src="/img/BOOK6.png" width="500" height="500">
+<img src="/img/BOOK7.png" width="500" height="500">
+<img src="/img/BOOK8.png" width="500" height="500">

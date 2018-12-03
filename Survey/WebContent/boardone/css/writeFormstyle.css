@@ -1,0 +1,29 @@
+@charset "UTF-8";
+section{
+	padding-top:30px;
+	width:1000px;
+	margin:auto;
+	left:0; top:0; right:0; bottom:0;
+}
+.survey{
+	text-align:center;
+	border-collapse:collapse;
+}
+.survey td{
+	border:1px solid #333;
+	text-align:center;
+	width:200px;
+	height:30px;
+}
+.survey td .input{
+	width:97%;
+}
+.survey .attr{
+	width:100px;
+	text-align:center;
+}
+#content{
+	resize:none;
+	overflow-x:hidden;
+	overflow-y:auto;
+}

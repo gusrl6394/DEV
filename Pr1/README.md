@@ -19,3 +19,14 @@
 - poi-ooxml-3.17.jar
 - poi-ooxml-schemas-3.17.jar
 - xmlbeans-2.6.0.jar
+
+![동작1](./img/JAVAChatingServer1.PNG)
+![동작2](./img/JAVAChatingServer2.PNG)
+![동작3](./img/JAVAChatingServer3.PNG)
+![동작4](./img/JAVAChatingServer4.PNG)
+![동작5](./img/JAVAChatingServer5.PNG)
+![동작6](./img/JAVAChatingServer6.PNG)
+![보안코드오류](./img/JAVAChatingServer7.PNG)
+![비밀번호오류](./img/JAVAChatingServer8.PNG)
+![아이디존재하지않음](./img/JAVAChatingServer9.PNG)
+![](./img/JAVAChatingServer10.PNG)

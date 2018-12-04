@@ -101,11 +101,11 @@ $(function() {
 
 ## 4. 결과
 
-<img src="./img/BOOK1.png" width="500" height="500">
-<img src="./img/BOOK2.png" width="500" height="500">
-<img src="./img/BOOK3.png" width="500" height="500">
-<img src="./img/BOOK4.png" width="500" height="500">
-<img src="./img/BOOK5.png" width="500" height="500">
-<img src="./img/BOOK6.png" width="500" height="500">
-<img src="./img/BOOK7.png" width="500" height="500">
-<img src="./img/BOOK8.png" width="500" height="500">
+<img src="./img/BOOK1.png">
+<img src="./img/BOOK2.png">
+<img src="./img/BOOK3.png">
+<img src="./img/BOOK4.png">
+<img src="./img/BOOK5.png">
+<img src="./img/BOOK6.png">
+<img src="./img/BOOK7.png">
+<img src="./img/BOOK8.png">

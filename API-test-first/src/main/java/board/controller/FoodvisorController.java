@@ -92,7 +92,7 @@ public class FoodvisorController{
 	    String clientSecret = "###";//애플리케이션 클라이언트 시크릿값";
 	    String result="";
 	    try {
-	        String addr = URLEncoder.encode(address1);
+	        String addr = URLEncoder.encode(address1,java.nio.charset.StandardCharsets.UTF_8.toString());
 	        String apiURL = "https://naveropenapi.apigw.ntruss.com/map-geocode/v2/geocode?query=" + addr; //json
 	        //String apiURL = "https://openapi.naver.com/v1/map/geocode.xml?query=" + addr; // xml
 	        URL url = new URL(apiURL);

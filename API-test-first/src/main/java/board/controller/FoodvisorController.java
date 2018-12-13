@@ -1,61 +1,35 @@
 package board.controller;
 
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.net.HttpURLConnection;
-import java.net.URL;
-import java.net.URLEncoder;
-import java.nio.file.Path;
-import java.nio.file.Paths;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Set;
-import java.util.UUID;
-
-import javax.servlet.ServletContext;
-import javax.servlet.http.HttpServletRequest;
-import javax.validation.Valid;
-
-import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
-import org.springframework.validation.BindingResult;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.ResponseBody;
-import org.springframework.web.bind.annotation.SessionAttributes;
-import org.springframework.web.multipart.MultipartFile;
-
+import board.domain.FoodvisorAddrVO;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
 
-import board.domain.FoodvisorAddrVO;
-import board.domain.FoodvisorVO;
-import board.service.FoodvisorService;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.net.HttpURLConnection;
+import java.net.URL;
+import java.net.URLEncoder;
 
 @Controller
-@SessionAttributes("foodvisorVO")
 public class FoodvisorController{
-	private FoodvisorService foodvisorService;
-	public void setFoodvisorService(FoodvisorService foodvisorService) {
-		this.foodvisorService = foodvisorService;
-	}
+
 	@RequestMapping(value="/", method=RequestMethod.GET)
 	public String home() {
-		return "/index";
+		return "index";
 	}
-	
-	@RequestMapping(value="/foodvisor/foodvisorReviewNew", method=RequestMethod.GET)
-	public String regist(Model model) {
-		model.addAttribute("foodvisorVO", new FoodvisorVO());
-		return "/foodvisor/foodvisorReviewNew";
+
+	@RequestMapping(value="navermap")
+	public String navermap(){
+		return "naver/navermap";
 	}
-	
+
 	// 응답결과만 반환
 	@ResponseBody
 	@RequestMapping(value="/sample/getAddrApi", method=RequestMethod.POST)
@@ -140,5 +114,13 @@ public class FoodvisorController{
 	    }		
 		return result;
 	}	
-	
+
+	@RequestMapping(value="naverlogin")
+	public String naverlogin(){
+		return  "naver/naverlogin";
+	}
+	@RequestMapping(value="navercallback")
+	public String navercallback(){
+		return "naver/navercallback";
+	}
 }

@@ -15,7 +15,6 @@
 				<param-name>contextConfigLocation</param-name>
 				<param-value>
 					<!-- 설정에 사용되는 파일 -->
-					classpath:spring-board.xml
 					classpath:spring-controller.xml
 					classpath:spring-mvc.xml
 				</param-value>

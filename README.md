@@ -10,7 +10,9 @@
 
 ※ 프로그램 만든 순서 : Pr1(자바채팅서버) -> Survey(설문조사 생성) -> SAMPLE(스프링 연습) -> springProjectSample(스프링 팀 프로젝트 중 일부분)
 
+=======================
 ※ 컴퓨터 사양
+
 Cpu - Intell 코어i7-6700K(스카이레이크)
 
 Vga - 이엠텍 XENON 지포스 GTX 1060 Super JETSTREAM D5 6GB 
@@ -37,6 +39,7 @@ LCD - ULTRON 3279UH HDR 4K UHD + ULTRON 3278 QHD
 
 Mike - MXL 990 + Scarlett solo Second Generation
 
+=======================
 
 ### 이미 해본것
 - 간단 웹 서버설치(라즈베리파이 + 도메인 + 아파치 + PHP + HTTPS + NODEMCU를 통한 온습도 측정, Maria DB)

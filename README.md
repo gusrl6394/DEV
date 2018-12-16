@@ -12,17 +12,29 @@
 
 ※ 컴퓨터 사양
 Cpu - Intell 코어i7-6700K(스카이레이크)
+
 Vga - 이엠텍 XENON 지포스 GTX 1060 Super JETSTREAM D5 6GB 
+
 Ram - Samsung DDR4 16G PC4-17000 * 2EA +  Team Group DDR4 16G PC4-17000 * 2EA
+
 Mainboard - B150M-A/M.2 iBORA
-SSD - WD Black NVMe SSD(1TB)(2018)(+ MYSSD M.2 방열판 NVMe SSD HeatSink M2F22), Samsung 860 EVO (1TB), Samsung 850 PRO (256GB), WD 1TB BLUE WD10EZEX(1TB)
+
+SSD - WD Black NVMe SSD(1TB)(2018)(+ MYSSD M.2 방열판 NVMe SSD HeatSink M2F22), Samsung 860 EVO (1TB), Samsung 850 PRO (256GB), WD 1TB 
+BLUE WD10EZEX(1TB)
+
 Power - FSP Hydro 600W 80PLUS BRONZE 230V EU
+
 쿨러/튜닝 - DEEPCOOL GAMMAXX 400 For Intel BRAVOTEC
+
 케이스 - BRAVOTEC 스텔스 EX270 파노라마 윈도우 블랙
 
+
 KeyBoard - ABKO 해커 K661 카일 광축 기계식키보드
+
 Mouse - MAXTILL TRON G10 블랙 러버 게이밍 마우스
+
 LCD - ULTRON 3279UH HDR 4K UHD + ULTRON 3278 QHD
+
 Mike - MXL 990 + Scarlett solo Second Generation
 
 

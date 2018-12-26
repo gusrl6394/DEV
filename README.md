@@ -10,6 +10,8 @@
 
 ※ 프로그램 만든 순서 : Pr1(자바채팅서버) -> Survey(설문조사 생성) -> SAMPLE(스프링 연습) -> springProjectSample(스프링 팀 프로젝트 중 일부분)
 
+※ 블로그 : https://kururu.tistory.com/
+
 =======================
 
 ※ 컴퓨터 사양
